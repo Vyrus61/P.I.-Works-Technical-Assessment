@@ -11,7 +11,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        string csvFilePath = "C:\\Users\\OGUAYAZ\\source\\repos\\ConsoleApp2\\ConsoleApp2\\exhibitA-input.csv"; 
+        string csvFilePath = "exhibitA-input.csv"; 
 
         List<PlayData> playDataList = new List<PlayData>();
         using (var reader = new StreamReader(csvFilePath))
